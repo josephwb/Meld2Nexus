@@ -1,0 +1,3 @@
+foo1.NEX
+foo2.NEX
+foo3.NEX
