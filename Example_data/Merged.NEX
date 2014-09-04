@@ -582,8 +582,8 @@ End;
 
 Begin paup;
 
-	CHARSET foo1 = 1-244; [244 characters]
-	CHARSET foo2 = 245-1306; [1062 characters]
-	CHARSET foo3 = 1307-5318; [4012 characters]
+	CHARSET Example_data/foo1 = 1-244; [244 characters]
+	CHARSET Example_data/foo2 = 245-1306; [1062 characters]
+	CHARSET Example_data/foo3 = 1307-5318; [4012 characters]
 
 End;
