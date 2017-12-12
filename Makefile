@@ -1,5 +1,6 @@
 OBJS = Meld2Nexus.o General.o
 CC = g++
+#CC = g++-4.9
 DEBUG = -g
 CFLAGS = -Wall -c -m64 -O3 -funroll-loops $(DEBUG)
 LFLAGS = -Wall -m64 $(DEBUG)
@@ -15,3 +16,4 @@ General.o: General.cpp General.h
 
 clean:
 	rm -rf *.o Meld2Nexus
+

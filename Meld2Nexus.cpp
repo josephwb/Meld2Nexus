@@ -12,6 +12,8 @@ make
 #include <sstream>
 #include <vector>
 #include <fstream>
+#include <cstdlib>
+#include <algorithm>
 
 using namespace std;
 
@@ -94,6 +96,11 @@ void processCommandLineArguments (int argc, char *argv[], vector <string> & list
 			} else if (temp == "-c") { // read from commandline
 				i++;
 				while (i < argc) {
+					char c = argv[i][0];
+					if (c == '-') {
+						i--;
+						break;
+					}
 					checkValidInputFile(argv[i]);
 					listFileNames.push_back(argv[i]);
 					i++;
