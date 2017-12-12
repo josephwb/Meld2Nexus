@@ -1,12 +1,14 @@
 Meld2Nexus
 ====================
 Lightweight program to merge alignment files, preserving partition information in Nexus CHARSET format. Assumes one gene per file (although this seems to be a reasonable extension to pursue). Does not assume the same taxon sampling across files; however, for taxa present across files, make sure names do not vary (or they will be interpreted as distinct). Currently takes in (vanilla) Nexus-formatted alignments as input, although fasta support is on the way. As always, line returns are assumed to be of unix flavour.
+
 Compile
 ---------------
 
 In a  terminal prompt in the src directory, type:
 
 	make
+
 Usage
 ---------------
 
