@@ -22,10 +22,6 @@ or
 
 where 'outFileName' is optional (default = "Merged.Nex").
 
-UPDATE
---------------
-This is now implemented in the [phyx](https://github.com/FePhyFoFum/phyx) program `pxcat`.
-
 For the second option, the executable and input files should be in the same directory. Otherwise, the file ```fileContainingNexusFileNames``` must use the path to the input files.
 
 UPDATE
